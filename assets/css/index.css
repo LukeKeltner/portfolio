@@ -1,0 +1,19 @@
+body 
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#image-container
+{
+	width:100vw;
+	max-height:100vh;
+	max-width:100vw;
+}
+
+#me
+{
+	display: block;
+	width:100%;
+	max-width: 100%;
+}
