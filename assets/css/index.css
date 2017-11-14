@@ -40,7 +40,7 @@ body
 	margin-bottom: 120px;
 }
 
-.fa
+.skills
 {
 	color:#8300ff;
 }
@@ -72,8 +72,8 @@ body
 .project-image:active
 {
 	transform: translateY(10px);
-	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
-    filter:  drop-shadow(0px 10px 5px rgba(0,0,0,.5)); 
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.7));
+    filter:  drop-shadow(0px 10px 5px rgba(0,0,0,.7)); 
 }
 
 #what-i-do
@@ -87,17 +87,17 @@ body
 	display: none;
 }
 
-.fa-arrow-left
+.fa-arrow-left, .fa-github-square, .fa-gamepad
 {
 	color:white;
 }
 
-.fa-arrow-left:hover
+.fa-arrow-left:hover, .fa-github-square:hover, .fa-gamepad:hover
 {
 	text-shadow: 0px 20px 5px rgba(0,0,0,.5);
 }
 
-.fa-arrow-left:active
+.fa-arrow-left:active, .fa-github-square:active, .fa-gamepad:active
 {
 	text-shadow: 0px 10px 5px rgba(0,0,0,.7);
 	transform: translateY(10px);
@@ -115,4 +115,40 @@ body
 {
 	font-size: 60px;
 	color:#8300ff;
+}
+
+.fa-microphone
+{
+	margin-top:30px;
+}
+
+.project-text
+{
+	position: absolute;
+	bottom:0%;
+}
+
+.fa-question
+{
+	color:yellow;
+}
+
+.fa-microphone
+{
+	color:black;
+}
+
+.fa-globe
+{
+	color:green;
+}
+
+.fa-heartbeat
+{
+	color:red;
+}
+
+.fa-shopping-bag
+{
+	color: #8c5a39;
 }
