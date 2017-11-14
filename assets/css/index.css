@@ -14,12 +14,14 @@ body
 	position: relative;
 	font-size: 30px;
 	overflow: hidden;
+	z-index: 3;
 }
 
 #me
 {
 	width:100%;
 	max-width: 100%;
+	z-index: 3;
 }
 
 .testtext
@@ -63,13 +65,15 @@ body
 
 .project-image:hover
 {
-	box-shadow: 0px 20px 5px rgba(0, 0, 0, .5);
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter:  drop-shadow(0px 20px 5px rgba(0,0,0,.5)); 
 }
 
 .project-image:active
 {
 	transform: translateY(10px);
-	box-shadow: 0px 10px 5px rgba(0, 0, 0, .7);
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter:  drop-shadow(0px 10px 5px rgba(0,0,0,.5)); 
 }
 
 #what-i-do
