@@ -1,13 +1,21 @@
 body
 {
 	font-family: 'Mukta Vaani', sans-serif;
-	padding-top:70px;
 }
 
-.navbar-brand, .nav-item, .navbar-expand-lg
+.navbar
+{
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.navbar-expand-lg
+{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-brand, .nav-item
 {
 	color: #263f68;
-	background-color: white;
 }
 
 #header-name

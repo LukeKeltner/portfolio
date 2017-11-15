@@ -127,7 +127,7 @@ body
 	bottom:0%;
 }
 
-.fa-question
+/*.fa-question
 {
 	color:yellow;
 }
@@ -150,13 +150,12 @@ body
 .fa-shopping-bag
 {
 	color: white;
-	/* color: #8c5a39; */
 }
 
 #github
 {
 	color:#8cb8ff;
-}
+}*/
 
 .refpic
 {
@@ -187,6 +186,7 @@ body
 	border: 3px solid #263f68;
 	margin:auto;
 	margin-top:40px;
+	overflow:hidden;
 }
 
 .card-body

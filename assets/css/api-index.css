@@ -3,7 +3,7 @@ body
   margin-top: 100px;
 }
 
-#header
+.navbar
 {
 	display:none;
 }
