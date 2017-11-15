@@ -69,3 +69,51 @@ $('#back').on("click", function(event)
 		$("#project-list").fadeIn()
 	},100)	
 })
+
+$("#submit-email").on("submit", function(event)
+{
+	$("#sending").show()
+	$("#email-success").hide()
+	$("#email-error").hide()
+	event.preventDefault();
+
+	var name = $('#name').val();
+	var email = $('#email').val();
+	var subject = $('#subject').val();
+	var message = $('#message').val();
+
+	var data = 
+	{
+		name: name,
+		email: email,
+		subject: subject,
+		message: message
+	};
+
+	console.log(data);
+
+	$.ajax(
+	{
+		url: "/submit",
+		type: "post",
+		data: data
+	}).then(function(response)
+	{
+		$("#sending").hide()
+		if (response === "Error")
+		{
+			$("#email-error").show()
+		}
+
+		else
+		{
+			$("#email-success").show()
+			var name = $('#name').val("");
+			var email = $('#email').val("");
+			var subject = $('#subject').val("");
+			var message = $('#message').val("");
+		}
+		
+	})
+
+})

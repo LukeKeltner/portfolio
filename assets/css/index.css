@@ -6,7 +6,6 @@ body
 	color: #263f68;
 }
 
-
 #image-container
 {
 	width:100%;
@@ -258,5 +257,25 @@ body
 .title
 {
 	font-size: 30px;
+}
+
+#email-error
+{
+	display: none;
+}
+
+#email-success
+{
+	display: none;
+}
+
+#sending
+{
+	display: none;
+}
+
+.navicon
+{
+	color:#263f68;
 }
 
