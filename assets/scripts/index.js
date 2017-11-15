@@ -2,7 +2,7 @@ $(".project-image").on("click", function(event)
 {
 	window.location="/#projects"
 	var id = $(this).attr("id");
-	$("#project-list").fadeOut(500)
+	$("#project-list").fadeOut(100)
 	setTimeout(function()
 	{
 		$("#specific-project").fadeIn()
@@ -57,15 +57,15 @@ $(".project-image").on("click", function(event)
 			$('#heroku-link').html('<a href="https://www.youtube.com/watch?v=9YW2XWnSX3c&t=2s" target="_blank"><i class="fa fa-youtube-play fa-5x" aria-hidden="true"></i></a><h2>Watch the Demo!</h2>')
 			$('#github-link').html('<a href="https://github.com/LukeKeltner/bamazon" target="_blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a><h2>Clone and play!</h2>')
 		}
-	},400)
+	},100)
 })
 
 $('#back').on("click", function(event)
 {
-	$("#specific-project").fadeOut(500)
+	$("#specific-project").fadeOut(100)
 	window.location="/#projects"
 	setTimeout(function()
 	{
 		$("#project-list").fadeIn()
-	},400)	
+	},100)	
 })
