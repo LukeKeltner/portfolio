@@ -63,6 +63,7 @@ $(".project-image").on("click", function(event)
 $('#back').on("click", function(event)
 {
 	$("#specific-project").fadeOut(500)
+	window.location="/#projects"
 	setTimeout(function()
 	{
 		$("#project-list").fadeIn()
