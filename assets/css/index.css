@@ -127,35 +127,41 @@ body
 	bottom:0%;
 }
 
-/*.fa-question
+.fa-question
 {
-	color:yellow;
+	/*color:yellow;*/
+	color:#fff6bc;
 }
 
 .fa-microphone
 {
-	color:black;
+	/*color:black;*/
+	color:#b2b2b2;
 }
 
 .fa-globe
 {
-	color:#5acc2a;
+	/*color:#5acc2a;*/
+	color:#b2ffca;
 }
 
 .fa-heartbeat
 {
-	color:red;
+	/*color:red;*/
+	color:#ffb5c2;
 }
 
 .fa-shopping-bag
 {
-	color: white;
+	/*color: white;*/
+	color:#efccff;
 }
 
 #github
 {
-	color:#8cb8ff;
-}*/
+	/*color:#8cb8ff;*/
+	color:white;
+}
 
 .refpic
 {
