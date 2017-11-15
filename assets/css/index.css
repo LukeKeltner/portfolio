@@ -3,7 +3,6 @@ body
 	overflow-y: scroll;
 	overflow-x: hidden;
 	font-size: 20px;
-	margin-bottom: 50px;
 	color: #263f68;
 }
 
@@ -100,6 +99,17 @@ body
 .fa-arrow-left:active, .fa-github-square:active, .fa-gamepad:active, .fa-eye:active, .fa-youtube-play:active
 {
 	text-shadow: 0px 10px 5px rgba(0,0,0,.7);
+	transform: translateY(10px);
+}
+
+.card:hover
+{
+	box-shadow: 0px 20px 5px rgba(0,0,0,.5);
+}
+
+.card:active
+{
+	box-shadow: 0px 10px 5px rgba(0,0,0,.7);
 	transform: translateY(10px);
 }
 
@@ -206,3 +216,47 @@ body
 	color:white;
 	background-color:#263f68 
 }
+
+.card > a
+{
+	text-decoration: none;
+}
+
+#contact
+{
+	padding-top:120px;
+	background-color:#263f68; 
+	color: white;
+	padding-bottom:120px;
+}
+
+#contact-title
+{
+	font-size: 60px;
+	color:white;
+}
+
+.submit-btn
+{
+	background-color: white;
+	color:#263f68;
+	border-radius: 3px;
+	border:none;
+}
+
+.submit-btn:hover
+{
+	box-shadow: 0px 20px 5px rgba(0,0,0,.5);
+}
+
+.submit-btn:active
+{
+	box-shadow: 0px 10px 5px rgba(0,0,0,.7);
+	transform: translateY(10px);
+}
+
+.title
+{
+	font-size: 30px;
+}
+
