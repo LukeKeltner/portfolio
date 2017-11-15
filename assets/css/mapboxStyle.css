@@ -3,6 +3,11 @@ body
   margin-top: 30px;
 }
 
+#header
+{
+	display: none;
+}
+
 #map
 {
   border:1px solid black;

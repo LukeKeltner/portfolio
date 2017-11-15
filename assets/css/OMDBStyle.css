@@ -3,6 +3,11 @@ body
   margin-top:30px;
 }
 
+#header
+{
+	display: none;
+}
+
 #search-button
 {
   margin-top:30px;
