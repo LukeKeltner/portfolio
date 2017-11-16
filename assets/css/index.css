@@ -85,17 +85,17 @@ body
 	display: none;
 }
 
-.fa-arrow-left, .fa-github-square, .fa-gamepad, .fa-eye, .fa-youtube-play
+.fa-arrow-left, .shadow, .fa-gamepad, .fa-eye, .fa-youtube-play
 {
 	color:white;
 }
 
-.fa-arrow-left:hover, .fa-github-square:hover, .fa-gamepad:hover, .fa-eye:hover, .fa-youtube-play:hover
+.fa-arrow-left:hover, .shadow:hover, .fa-gamepad:hover, .fa-eye:hover, .fa-youtube-play:hover
 {
 	text-shadow: 0px 20px 5px rgba(0,0,0,.5);
 }
 
-.fa-arrow-left:active, .fa-github-square:active, .fa-gamepad:active, .fa-eye:active, .fa-youtube-play:active
+.fa-arrow-left:active, .shadow:active, .fa-gamepad:active, .fa-eye:active, .fa-youtube-play:active
 {
 	text-shadow: 0px 10px 5px rgba(0,0,0,.7);
 	transform: translateY(10px);
