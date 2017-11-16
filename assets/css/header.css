@@ -1,18 +1,8 @@
-html, body
-{
-    height: 100%;
-}
 
 body
 {
 	font-family: 'Mukta Vaani', sans-serif;
 	margin-top: 70px;
-}
-
-.dropdown-menu
-{
-	max-height:300px;
-	overflow-y: scroll;
 }
 
 .navbar
