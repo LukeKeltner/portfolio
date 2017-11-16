@@ -279,3 +279,26 @@ body
 	color:#263f68;
 }
 
+#small
+{
+	display: none;
+}
+
+@media (max-width: 700px)
+{
+
+	#me
+	{
+		display: none;
+	}
+
+	#small
+	{
+		display: inline;
+	}
+
+	#small-text
+	{
+		margin-top: 100px;
+	}
+}
