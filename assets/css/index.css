@@ -22,15 +22,22 @@ body
 	width:100%;
 	max-width: 100%;
 	z-index: 3;
+	opacity: 0.5;
+}
+
+#copy
+{
+	text-align: center;
 }
 
 .testtext
 {
 	position: absolute;
-	left:60%;
-	top:30%;
+	left:50%;
+	top:27%;
 	text-align: center;
 	font-size: 4rem;
+	width:40%;
 }
 
 #skills

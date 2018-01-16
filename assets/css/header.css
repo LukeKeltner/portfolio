@@ -25,11 +25,13 @@ body
 	margin-top:6px;
 }
 
+
 #copy
 {
-	margin-top:12px;
-	font-size: 10px;
+	font-size: 15px;
+	text-align: center;
 }
+
 #header-name
 {
 	font-size: 30px;
@@ -70,6 +72,11 @@ a
 .header-text
 {
 	font-size: 60px;
+}
+
+.fixed-bottom {
+    display:inline-block;
+    float:none;
 }
 
 
