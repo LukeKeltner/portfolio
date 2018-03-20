@@ -10,12 +10,12 @@ $(".project-image").on("click", function(event)
 
 		if (id === "riddle")
 		{
-			$('#project-image-insert').html('<h1><i class="fa fa-question fa-5x project-image" aria-hidden="true" id="riddle"></i></h1>')
-			$('#project-description').html("This Riddle Game rewards players with game currency and level ups for successfully answering riddles correctly")
-			$('#project-features').html("<li>Individual user experience</li><li>SQL Database with secured user table, riddle table, and lookup table</li><li>Users never see a riddle they have gotten correct twice</li><li>Leaderboard that highlights the user and their rank among all other users. Rank based on amount of coins and level</li>")
-			$('#project-tech').html("<li>Node and Express</li><li>Express Handlebars</li><li>SQL Database with custom made ORM</li><li>AES-js</li><li>validator npm</li><li>mysql npm</li><li>Bootstrap</li>")
-			$('#heroku-link').html('<a href="http://riddlegame.herokuapp.com/" target="_blank"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a><h2>Play me!</h2>')
-			$('#github-link').html('<a href="https://github.com/riddle-dudes/riddle-project" target="_blank"><i class="fa fa-github-square shadow fa-5x" aria-hidden="true"></i></a>')
+			$('#project-image-insert').html('<h1><i class="fa fa-pencil fa-5x project-image" aria-hidden="true" id="riddle"></i></h1>')
+			$('#project-description').html("WhaDaYa Know is designed to present physics questions to students in an engaging, fun, and replayable manner to encourage physics mastery")
+			$('#project-features').html("<li>Individual user experience</li><li>Original normalized SQL Database</li><li>Can wager coins to get rewarded for correct answers and can buy items using coins</li><li>Leaderboard that highlights the user and their rank among all other users.</li><li>Can see progress in each topic and reset questions to try for a better score</li><li>Designed Hawken School's API to obtain updated student and teacher information</li>")
+			$('#project-tech').html("<li>React</li><li>Node and Express</li><li>SQL Database with custom made ORM</li><li>bcyrpt</li><li>mysql npm</li><li>Bootstrap</li>")
+			$('#heroku-link').html('<a href="http://whadayaknow.herokuapp.com/" target="_blank"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a><h2>Play me!</h2>')
+			$('#github-link').html('<a href="https://github.com/LukeKeltner/whatdayaknow" target="_blank"><i class="fa fa-github-square shadow fa-5x" aria-hidden="true"></i></a>')
 		}
 
 		if (id === "tom")
@@ -30,12 +30,12 @@ $(".project-image").on("click", function(event)
 
 		if (id === "apifun")
 		{
-			$('#project-image-insert').html('<h1><i class="fa fa-globe fa-5x project-image" aria-hidden="true" id="riddle"></i></h1>')
-			$('#project-description').html("API Fun was developed to demonstrate the ease, scope, and entertainment of APIs")
-			$('#project-features').html("<li>Gif search function that produces a given amount of gifs searched by a user input, includes search history</li><li>Movie database search that plots movies' IMDB scores against each other. User chooses all movies and can reset graph at any time.</li><li>Map and Weather function where user clicks anywhere on the globe and receives the following information on where they clicked:<ul><li>Latitude and Longitude</li><li>Area</li><li>Weather</li><li>Temperature, Humidity, and Wind Speed</li></ul></li>")
-			$('#project-tech').html("<li>Bootstrap for mobile friendly use</li><li>JQUERY ajax</li><li>c3.js</li><li>APIs include:<ul><li>GIPHY</li><li>OMDB</li><li>Mapbox</li><li>OpenWeatherMap</li></ul></li>")
-			$('#heroku-link').html('<a href="/apifun" target="_blank"><i class="fa fa-eye fa-5x" aria-hidden="true"></i></a><h2>Check it out!</h2>')
-			$('#github-link').html('<a href="https://github.com/LukeKeltner/API-Fun" target="_blank"><i class="fa fa-github-square shadow fa-5x" aria-hidden="true"></i></a>')
+			$('#project-image-insert').html('<h1><i class="fa fa-newspaper-o fa-4x project-image" aria-hidden="true" id="riddle"></i></h1>')
+			$('#project-description').html("Scrape NPR demonstrates web scraping and data storage using MongoDB.")
+			$('#project-features').html("<li>Scrape NPR for new articles that are not already in the database and display them to the user with a link to the article.</li><li>Anonymous commenting system with live sentiment analysis of each comment.</li>")
+			$('#project-tech').html("<li>Bootstrap for mobile friendly use</li><li>JQUERY</li><li>Cheerio npm</li><li>MongoDB and Mongoose</li>")
+			$('#heroku-link').html('<a href="https://mongodbnews.herokuapp.com/" target="_blank"><i class="fa fa-eye fa-5x" aria-hidden="true"></i></a><h2>Check it out!</h2>')
+			$('#github-link').html('<a href="https://github.com/LukeKeltner/Scrape-NPR" target="_blank"><i class="fa fa-github-square shadow fa-5x" aria-hidden="true"></i></a>')
 		}
 
 		if (id === "rf")
